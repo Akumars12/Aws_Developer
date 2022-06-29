@@ -1,0 +1,2 @@
+Create VPC in 2 regions
+Create 5 Instance in 2 regions
