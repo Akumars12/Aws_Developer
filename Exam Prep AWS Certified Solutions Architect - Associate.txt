@@ -1,0 +1,39 @@
+Cluster placement groups is for physical setup and for low latency network performance
+
+Spread placement group - is for availability not to reduce latency
+
+Design HA means designing for minimal downtime
+
+Designing for fault tolerance means designing for zero downtime
+
+AWS services used to improve reliability-
+
+Disaster recovery Objectives 
+-RTO: Recovery time objective
+-RPO: Recovery point objective
+-Active/Passive: Backup and restore, pilot light and warm standby
+-Active/Active: Multi-site active/active
+
+ AWS networking Connectivity services
+-Aws managed VPN
+-Aws direct connect
+-Aws transit gateway
+-Aws VPN cloudhub
+
+Connectivity between VPCs
+-VPC peering
+-Aws transit gateway
+-Aws private link
+-Aws managed VPN
+
+Data transfe services
+-Aws datasync
+-Aws snow family
+-Aws transfer family
+-Aws database migration service(AWS DMS)
+
+Ways to optimize amazon EBS
+-Right size EBS vol
+-Choose the appropriate vol type
+-User services like AWS trusted advisor
+-Delete Old EBS snapshots 
